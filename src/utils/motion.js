@@ -86,3 +86,12 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
     },
   };
 };
+
+export const zoomInVariant = {
+  zoomed: {
+    scale: 1.1,
+  },
+  unzoomed: {
+    scale: 1,
+  },
+};
