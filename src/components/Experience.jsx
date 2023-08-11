@@ -1,6 +1,7 @@
 import { Tooltip } from "@material-tailwind/react";
 import { useRef, useEffect } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import { SectionWrapper } from "../hoc";
 
 const Experience = () => {
   const controls = useAnimation();
@@ -27,7 +28,7 @@ const Experience = () => {
     },
   };
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center px-10 pt-10 md:px-28">
+    <div className="flex min-h-screen flex-col items-center justify-center px-10 pt-10 md:px-28" id="work">
       <motion.div
         ref={ref}
         id="experience"
@@ -234,19 +235,6 @@ const Experience = () => {
                   />
                 </Tooltip>
 
-                <Tooltip
-                  className="bg-silver"
-                  content="NumPy"
-                  placement="bottom"
-                >
-                  <img
-                    className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                    width="0"
-                    height="0"
-                    src="../../public/NumPy.svg"
-                    alt="NumPy"
-                  />
-                </Tooltip>
               </div>
             </motion.li>
 
