@@ -2,6 +2,7 @@
 import { Tooltip } from "@material-tailwind/react";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import {zoomInVariant } from "../utils/motion";
 
 
 const Works = () => {
@@ -58,6 +59,7 @@ const Works = () => {
                     height="0"
                     src="/scis.png"
                     alt="Ellipsis"
+                   
                   />
                  
                 </a>
@@ -81,12 +83,15 @@ const Works = () => {
               </div>
 
               <ul className="py-2 pl-6">
-                <img
+                <motion.img
                   className="relative inline-flex w-3/4 object-cover py-6 lg:w-1/2"
                   width={500}
                   height={500}
                   src="/esd.png"
                   alt="FreshGO"
+                  variants={zoomInVariant}
+                  whileHover="zoomed"
+                  whileTap="unzoomed"
                 />
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
