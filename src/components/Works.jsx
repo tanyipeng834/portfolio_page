@@ -106,6 +106,19 @@ const Works = () => {
                 </li>
                
                 <div className="my-4 flex cursor-pointer flex-wrap gap-1 py-2">
+                <Tooltip
+                    className="bg-silver"
+                    content="Vue.js"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Vue.svg"
+                      alt="Vue.js"
+                    />
+                  </Tooltip>
                   <Tooltip
                     className="bg-silver"
                     content="Node.js"
@@ -183,180 +196,90 @@ const Works = () => {
               initial="hidden"
               animate={controls}
             >
-              <div className="absolute -left-[18px] flex rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700 md:-left-8">
-                <a
-                  href="https://github.com/k3ithloh/gs-service-exchange"
-                  target="_blank"
-                >
-                  <img
-                    className="relative m-1 inline-flex h-6 w-auto md:h-12"
+              <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
+              
+                   <img
+                    className="relative m-1 inline-flex h-6 w-12 md:h-12"
                     width="0"
                     height="0"
-                    src="/img/ellipsis.svg"
+                    src="/scis.png"
                     alt="Ellipsis"
+                   
                   />
-                </a>
+                 
+                
               </div>
               <h3
-                className="l:text-xl mt-2 text-lg font-semibold text-ebony hover:text-white dark:text-ebony xl:text-2xl 2xl:text-3xl 
+                className="l:text-xl mt-2 text-lg font-semibold xl:text-2xl 2xl:text-3xl 
               "
               >
                 <a
-                  href="https://github.com/k3ithloh/gs-service-exchange"
+                  href="https://github.com/tanyipeng834/StudySmart" className="hover:text-secondary"
                   target="_blank"
                 >
-                  Elipsis 2022 Hackathon by Goldman Sachs
+                 IS 216 Web Application Development 2
                 </a>
               </h3>
               <div className=" flex flex-wrap items-center justify-start gap-x-1">
                 <h3 className="l:text-xl text-lg font-semibold text-ebony dark:text-ebony xl:text-2xl 2xl:text-3xl">
-                  Team Rainbow and Unicorns
+                 StudySmart
                 </h3>
               
               </div>
 
               <ul className="py-2 pl-6">
-                <li className="list-disc">
-                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
-                    Developed GS Service Exchange, a one stop integrated
-                    marketplace for GS open banking services, it allows
-                    businesses to integrate their industry-standard services and
-                    monitor all transactions in one place.
-                  </p>
-                </li>
-                <img
+                <motion.img
                   className="relative inline-flex w-3/4 object-cover py-6 lg:w-1/2"
                   width={500}
                   height={500}
-                  src="/img/macbook-gsexchange.png"
-                  alt="Goldman Sachs Service Exchange"
+                  src="/wad2.png"
+                  alt="FreshGO"
+                  variants={zoomInVariant}
+                  whileHover="zoomed"
+                  whileTap="unzoomed"
                 />
+                <li className="list-disc">
+                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
+                   Developed a Full Stack Mobile-Responsive Web Application with a Vue Frontend and Firebase Real-Time Database.
+                  </p>
+                </li>
+               
                 <div className="my-4 flex cursor-pointer flex-wrap gap-1 py-2">
                   <Tooltip
-                    className="bg-silver "
-                    content="Javascript"
+                    className="bg-silver"
+                    content="Vue.js"
                     placement="bottom"
                   >
                     <img
                       className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                       width="0"
                       height="0"
-                      src="/img/javascript.svg"
-                      alt="Javascript"
+                      src="/Vue.svg"
+                      alt="Vue.js"
                     />
                   </Tooltip>
                   <Tooltip
                     className="bg-silver"
-                    content="Next.js"
+                    content="Firebase"
                     placement="bottom"
                   >
                     <img
                       className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                       width="0"
                       height="0"
-                      src="/img/nextjs.svg"
-                      alt="NextJS"
+                      src="/Firebase.svg"
+                      alt="Firebase"
                     />
                   </Tooltip>
-                  <Tooltip
-                    className="bg-silver"
-                    content="Tailwind"
-                    placement="bottom"
-                  >
-                    <img
-                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                      width="0"
-                      height="0"
-                      src="/img/tailwind.svg"
-                      alt="Tailwind"
-                    />
-                  </Tooltip>
-
-                  <Tooltip
-                    className="bg-silver"
-                    content="C#"
-                    placement="bottom"
-                  >
-                    <img
-                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                      width="0"
-                      height="0"
-                      src="/img/cSharp.svg"
-                      alt="C#"
-                    />
-                  </Tooltip>
-                  <Tooltip
-                    className="bg-silver"
-                    content=".Net"
-                    placement="bottom"
-                  >
-                    <img
-                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                      width="0"
-                      height="0"
-                      src="/img/dotnet.svg"
-                      alt=".Net"
-                    />
-                  </Tooltip>
-                  <Tooltip
-                    className="bg-silver"
-                    content="PostgreSQL"
-                    placement="bottom"
-                  >
-                    <img
-                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                      width="0"
-                      height="0"
-                      src="/img/postgresql.svg"
-                      alt="PostgreSQL"
-                    />
-                  </Tooltip>
-                  <Tooltip
-                    className="bg-silver"
-                    content="AWS"
-                    placement="bottom"
-                  >
-                    <img
-                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
-                      width="0"
-                      height="0"
-                      src="/img/aws.svg"
-                      alt="AWS"
-                    />
-                  </Tooltip>
+                 
                 </div>
               </ul>
               <time className="mb-2 mt-2 text-xs font-normal italic leading-none text-jet dark:text-jet lg:text-sm xl:text-base 2xl:text-lg">
-                August 2022
+                January 2023
               </time>
             </motion.li>
 
-            <motion.li
-              className="mb-10 pb-24 pl-12"
-              variants={fadeLeft}
-              initial="hidden"
-              animate={controls}
-            >
-              <div className="absolute -left-[18px] flex rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700 md:-left-8">
-                <a href="https://github.com/k3ithloh/" target="_blank">
-                  <img
-                    className="relative m-1 inline-flex h-6 w-auto md:h-12"
-                    width="0"
-                    height="0"
-                    src="/img/github-octocat.svg"
-                    alt="Github"
-                  />
-                </a>
-              </div>
-              <h3
-                className="l:text-xl text-lg font-semibold text-ebony hover:text-white dark:text-ebony md:pt-3 xl:text-2xl 2xl:text-3xl
-              "
-              >
-                <a href="https://github.com/k3ithloh/" target="_blank">
-                  More projects on my Github! @k3ithloh
-                </a>
-              </h3>
-            </motion.li>
+           
           </ol>
         </div>
       </motion.div>
