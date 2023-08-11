@@ -240,7 +240,7 @@ const Works = () => {
                 />
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
-                   Developed a Full Stack Mobile-Responsive Web Application with a Vue Frontend and Firebase Real-Time Database.
+                   Developed a Full Stack Mobile-Responsive Study Productivity Web Application with a Vue Frontend and Firebase Real-Time Database.
                   </p>
                 </li>
                
@@ -276,6 +276,124 @@ const Works = () => {
               </ul>
               <time className="mb-2 mt-2 text-xs font-normal italic leading-none text-jet dark:text-jet lg:text-sm xl:text-base 2xl:text-lg">
                 January 2023
+              </time>
+            </motion.li>
+
+            <motion.li
+              className="mb-10 pl-12"
+              variants={fadeLeft}
+              initial="hidden"
+              animate={controls}
+            >
+              <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
+              
+                   <img
+                    className="relative m-1 inline-flex h-6 w-12 md:h-12"
+                    width="0"
+                    height="0"
+                    src="/.hack.png"
+                    alt="SMU .Hack"
+                   
+                  />
+                 
+                
+              </div>
+              <h3
+                className="l:text-xl mt-2 text-lg font-semibold xl:text-2xl 2xl:text-3xl 
+              "
+              >
+                <a
+                  href="https://github.com/kendricktty/simplylogs" className="hover:text-secondary"
+                  target="_blank"
+                >
+                 .Hack Heap Enrichment Programme
+                 </a>
+                
+              </h3>
+              <div className=" flex flex-wrap items-center justify-start gap-x-1">
+                <h3 className="l:text-xl text-lg font-semibold text-ebony dark:text-ebony xl:text-2xl 2xl:text-3xl">
+                 SimplyLogs
+                </h3>
+              
+              </div>
+
+              <ul className="py-2 pl-6">
+                <motion.img
+                  className="relative inline-flex w-3/4 object-cover py-6 lg:w-1/2"
+                  width={500}
+                  height={500}
+                  src="/laptop_heap.png"
+                  alt="SimplyLogs"
+                  variants={zoomInVariant}
+                  whileHover="zoomed"
+                  whileTap="unzoomed"
+                />
+                <li className="list-disc">
+                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
+                   Developed a Full Stack Web Application for Inventory and Asset Tracking by automating key processes like serialising, invoice generation and accounting.
+                   This was built with the MERN Stack
+                  </p>
+                </li>
+               
+                <div className="my-4 flex cursor-pointer flex-wrap gap-1 py-2">
+                  <Tooltip
+                    className="bg-silver"
+                    content="React.js"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/React.svg"
+                      alt="React.js"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="MongoDB"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/MongoDB.svg"
+                      alt="MongoDB"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="Express"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Express.svg"
+                      alt="Express"
+                    />
+                  </Tooltip>
+
+                  <Tooltip
+                    className="bg-silver"
+                    content="Node.js"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Node.svg"
+                      alt="Node"
+                    />
+                  </Tooltip>
+                 
+                </div>
+              </ul>
+              <time className="mb-2 mt-2 text-xs font-normal italic leading-none text-jet dark:text-jet lg:text-sm xl:text-base 2xl:text-lg">
+                Aug 2022
               </time>
             </motion.li>
 
