@@ -41,7 +41,7 @@ const Contact = () => {
           from_email: form.email,
           to_email: "yipeng.tan.2021@scis.smu.edu.sg",
           reply_to: form.email,
-          message: form.message + ' ' + form.email
+          message: form.message 
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
