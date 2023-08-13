@@ -41,7 +41,7 @@ useEffect(() => {
            I am a Junior at Singapore Management Univesity <br className='sm:block hidden' />
 
            <br></br>
-            <span ref ={el} className="font-black text-[#915EFF] lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[25px] lg:leading-[98px] mt-4"></span>
+            <span ref ={el} className="font-black text-[#915EFF] lg:text-[40px] sm:text-[26px] xs:text-[29px] text-[16px] lg:leading-[64px] mt-4"></span>
           </p>
         </div>
       </div>
