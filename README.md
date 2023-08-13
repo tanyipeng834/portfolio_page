@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 <div align="center">
   <h1>Portfolio Page</h1>
   <img src="./portfolio.jpg" alt="Portfolio Page" />
-  This is the [link](https://yipeng-portfolio.vercel.app/) for my portfolio page
+ <a href="https://yipeng-portfolio.vercel.app/">Website link</a> 
 </div>
 
 
