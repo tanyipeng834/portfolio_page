@@ -49,12 +49,9 @@ const Works = () => {
               animate={controls}
             >
               <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
-                <a
-                  href="https://github.com/k3ithloh/BFG-SafeSpace"
-                  target="_blank"
-                >
+               
                    <img
-                    className="relative m-1 inline-flex h-6 w-12 md:h-12"
+                    className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
                     width="0"
                     height="0"
                     src="/scis.png"
@@ -62,7 +59,7 @@ const Works = () => {
                    
                   />
                  
-                </a>
+               
               </div>
               <h3
                 className="l:text-xl mt-2 text-lg font-semibold xl:text-2xl 2xl:text-3xl 
@@ -199,7 +196,7 @@ const Works = () => {
               <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
               
                    <img
-                    className="relative m-1 inline-flex h-6 w-12 md:h-12"
+                    className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
                     width="0"
                     height="0"
                     src="/scis.png"
@@ -288,7 +285,7 @@ const Works = () => {
               <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
               
                    <img
-                    className="relative m-1 inline-flex h-6 w-12 md:h-12"
+                    className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
                     width="0"
                     height="0"
                     src="/.hack.png"
