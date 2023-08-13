@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Tan Yi Peng",
           from_email: form.email,
-          to_email: "tanyipeng834@gmail.com",
+          to_email: "yipeng.tan.2021@scis.smu.edu.sg",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
