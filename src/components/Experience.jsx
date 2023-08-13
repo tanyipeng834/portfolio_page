@@ -53,7 +53,7 @@ const Experience = () => {
                  
                 <img
                 className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
-                src="../../public/scis.png"
+                src="/scis.png"
                 alt="SCIS"
               />
                 
@@ -97,7 +97,7 @@ const Experience = () => {
                     className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                     width="0"
                     height="0"
-                    src="../../public/Keras.svg"
+                    src="/Keras.svg"
                     alt="Keras"
                   />
                 </Tooltip>
@@ -110,7 +110,7 @@ const Experience = () => {
                     className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                     width="0"
                     height="0"
-                    src="../../public/opencv.svg"
+                    src="/opencv.svg"
                     alt="OpenCV"
                   />
                 </Tooltip>
@@ -123,7 +123,7 @@ const Experience = () => {
                     className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                     width="0"
                     height="0"
-                    src="../../public/scikit-learn.svg"
+                    src="/scikit-learn.svg"
                     alt="Tailwind"
                   />
                 </Tooltip>
@@ -137,7 +137,7 @@ const Experience = () => {
                     className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
                     width="0"
                     height="0"
-                    src="../../public/NumPy.svg"
+                    src="/NumPy.svg"
                     alt="NumPy"
                   />
                 </Tooltip>

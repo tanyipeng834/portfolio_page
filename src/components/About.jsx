@@ -32,7 +32,7 @@ const About = () => {
 
      
       <motion.img
-      src="../../public/profile.jpg"
+      src="/profile.jpg"
       className="h-full object-contain w-full md:w-1/2 p-4"
       variants={zoomInVariant}
       whileHover="zoomed"
