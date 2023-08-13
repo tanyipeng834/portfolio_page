@@ -116,7 +116,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl w-fit text-white font-bold shadow-md shadow-primary border'
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -127,7 +127,9 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] mx-auto' 
       >
-        <img src="/3dbook.png" class="w-full md:w-auto md:max-w-full"/>
+       
+        <img src="/3dbook.png" className="max-w-50 w-auto md:max-w-75" alt="3D Book" />
+
         
       </motion.div>
     </div>
