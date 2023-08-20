@@ -21,11 +21,11 @@ const About = () => {
       <div className="w-full md:w-1/2 p-4">
       <p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[15px] max-w-3xl leading-[25px] '
+        className='mt-4 text-secondary text-[20px] max-w-3xl leading-[25px] '
       >
-        I'm an anspiring Full Stack Developer with an edge in Machine-Learning. I am currently 
+        I'm an aspiring Full Stack Developer with an edge in Machine-Learning. I am currently 
         brushing up on my machine learning capabilites by working as a research assistant for SMU on computer vision models to identify malicious permission
-        usage from andriod applicaitons.
+        usage from andriod applications.
       </p>
       </div>
       <div className="w-full md:w-1/2 p-4">
