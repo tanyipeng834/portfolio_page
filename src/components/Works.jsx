@@ -92,8 +92,8 @@ const Works = () => {
                 />
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
-                   Developed a Full Stack Mobile-Responsive Web Application with the Micorservices Architecture with machine learnin capabilites to optimize water
-                   and fetrilizer usage
+                   Developed a Full Stack Mobile-Responsive Web Application with the Microservices Architecture with Machine Learning capabilites to optimize water
+                   and fetrtilizer usage
                   </p>
                 </li>
                 <li className="list-disc">
