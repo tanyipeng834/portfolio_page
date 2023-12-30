@@ -25,7 +25,7 @@ const About = () => {
       >
         I'm an aspiring Cloud/Devops Engineer I am currently 
         learning Infrastucture as Code by taking on the Terrafrom Associate Certification. I hope to be able 
-        engineer complex systems using the cloud.
+        engineer complex systems using the cloud to address challenges faced by enterprises and the community.
       </p>
       </div>
       <div className="w-full md:w-1/2 p-4">
