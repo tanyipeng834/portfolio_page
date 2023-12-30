@@ -216,7 +216,142 @@ const Works = () => {
                 </div>
               </ul>
               <time className="mb-2 mt-2 text-xs font-normal italic leading-none text-jet dark:text-jet lg:text-sm xl:text-base 2xl:text-lg">
-                January 2023
+                November 2023
+              </time>
+            </motion.li>
+            <motion.li
+              className="mb-10 pl-12"
+              variants={fadeLeft}
+              initial="hidden"
+              animate={controls}
+            >
+              <div className="absolute -left-[18px] flex  bg-gray-200 dark:border-white dark:bg-gray-700 md:-left-8">
+               
+                   <img
+                    className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
+                    width="0"
+                    height="0"
+                    src="/goldman.png"
+                    alt="Goldman Sachs"
+                   
+                  />
+                 
+               
+              </div>
+              <h3
+                className="l:text-xl mt-2 ml-5 text-lg font-semibold xl:text-2xl 2xl:text-3xl 
+              "
+              >
+                <a
+                  href="https://github.com/tanyipeng834/Goldman-Sachs-Portfolio-Analyzer" className="hover:text-secondary"
+                  target="_blank"
+                >
+                  Goldman Sachs Portfolio Analyzer
+                </a>
+              </h3>
+              <div className=" flex flex-wrap items-center justify-start gap-x-1">
+                
+              
+              </div>
+
+              <ul className="py-2 pl-6">
+                <motion.img
+                  className="relative inline-flex w-3/4 object-cover py-6 lg:w-1/2"
+                  width={500}
+                  height={500}
+                  src="/oop.png"
+                  alt="FreshGO"
+                  variants={zoomInVariant}
+                  whileHover="zoomed"
+                  whileTap="unzoomed"
+                />
+                <li className="list-disc">
+                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
+                  Developed a Portfolio Analyzer Application in Java Spring Boot for Goldman Sachs which aids to help financial professionals make more informed investment decisions.
+                  </p>
+                </li>
+                <li className="list-disc">
+                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
+                  Utilized Redis Cache to cache the data to reduce dependency on external systems and Redis Pub/Sub for asynchronous operations to improve the performance of the application.
+                  </p>
+                </li>
+                <li className="list-disc">
+                  <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:w-3/4 lg:text-lg xl:text-xl 2xl:text-2xl">
+                  Attained the highest grade possible (A+) from our sponsor Goldman Sachs.
+                  </p>
+                </li>
+               
+                <div className="my-4 flex cursor-pointer flex-wrap gap-1 py-2">
+                <Tooltip
+                    className="bg-silver"
+                    content="Vue.js"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Vue.svg"
+                      alt="Vue.js"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="Java"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Java.svg"
+                      alt="Java"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="Spring Boot"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Spring.svg"
+                      alt="Spring Boot"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="Firebase"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-auto hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Firebase.svg"
+                      alt="Firebase"
+                    />
+                  </Tooltip>
+                  <Tooltip
+                    className="bg-silver"
+                    content="Redis"
+                    placement="bottom"
+                  >
+                    <img
+                      className="m-1 h-6 w-12 hover:animate-pulse md:h-12"
+                      width="0"
+                      height="0"
+                      src="/Redis.svg"
+                      alt="Redis"
+                    />
+                  </Tooltip>
+                
+                </div>
+              </ul>
+              <time className="mb-2 mt-2 text-xs font-normal italic leading-none text-jet dark:text-jet lg:text-sm xl:text-base 2xl:text-lg">
+                July 2023
               </time>
             </motion.li>
             <motion.li
