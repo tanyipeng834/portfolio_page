@@ -23,9 +23,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[25px] '
       >
-        I'm an aspiring Full Stack Developer with an edge in Machine-Learning. I am currently 
-        brushing up on my machine learning capabilites by working as a research assistant for SMU on computer vision models to identify malicious permission
-        usage from andriod applications.
+        I'm an aspiring Cloud/Devops Engineer I am currently 
+        learning Infrastucture as Code by taking on the Terrafrom Associate Certification. I hope to be able 
+        engineer complex systems using the cloud.
       </p>
       </div>
       <div className="w-full md:w-1/2 p-4">
