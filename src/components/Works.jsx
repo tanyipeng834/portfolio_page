@@ -54,8 +54,8 @@ const Works = () => {
                     className="relative m-1 inline-flex h-6 w-6 md:h-12 md:w-auto object-contain"
                     width="0"
                     height="0"
-                    src="/scis.png"
-                    alt="Ellipsis"
+                    src="/ascenda.jpg"
+                    alt="Ascenda Loyalty"
                    
                   />
                  
