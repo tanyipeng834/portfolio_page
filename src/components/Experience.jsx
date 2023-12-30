@@ -178,17 +178,17 @@ const Experience = () => {
               <ul className="py-2 pl-6">
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-                    Carried out End-to-End QA Testing with software development team with Selenium Web Driver
+                  •	Programmed a Slack bot using Slack API and Beautiful Soup Library to extract data on the company’s infrastructure metrics  and send notifications to alert the relevant personnel.
                   </p>
                 </li>
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-                    Implemented Agile Methogolgy across cross-functional teams to ensure projects were deliverd on time
+                  Developed automated testing scripts with Selenium and Unit Test Framework to reduce the required testing time from 40 to 5 minute
                   </p>
                 </li>
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-                   Programmed an Slack Bot for monitoring purposes of the incoming requests coming to the company's IT infrastructure
+                   	Developed data migration scripts in Python to migrate clients’ data from their legacy applications to the company’s database.
                   </p>
                 </li>
               </ul>
