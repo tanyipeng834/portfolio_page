@@ -178,7 +178,7 @@ const Experience = () => {
               <ul className="py-2 pl-6">
                 <li className="list-disc">
                   <p className="text-sm font-normal text-jet dark:text-jet md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-                  •	Programmed a Slack bot using Slack API and Beautiful Soup Library to extract data on the company’s infrastructure metrics  and send notifications to alert the relevant personnel.
+                  Programmed a Slack bot using Slack API and Beautiful Soup Library to extract data on the company’s infrastructure metrics  and send notifications to alert the relevant personnel.
                   </p>
                 </li>
                 <li className="list-disc">
@@ -205,7 +205,7 @@ const Experience = () => {
                     width="0"
                     height="0"
                     src="/Selenium.svg"
-                    alt="Keras"
+                    alt="Selenium"
                   />
                 </Tooltip>
                 <Tooltip
